@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "worakrit",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.18.0",
+    "fastify-cors": "^6.0.1",
+    "fastify-mongodb": "^2.0.1",
+    "fastify-mongoose-api": "^1.1.7",
+    "fastify-swagger": "^4.8.0"
+  }
+}

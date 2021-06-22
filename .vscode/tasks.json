@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "jit",
+			"path": "svelte/",
+			"problemMatcher": [
+				"$jshint"
+			],
+			"label": "npm: jit - svelte",
+			"detail": "npx tailwindcss -o static/tailwind.css --watch --jit --purge ./src/**/*.svelte"
+		}
+	]
+}

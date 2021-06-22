@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<base href="./">
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="/tailwind.css">
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+	
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-652104df.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-c0ade6c6.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-82f3ca3f.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-2655d3ca.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-47cdb04b.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-652104df.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-82f3ca3f.js"),
+						import("/./_app/pages/index.svelte-2655d3ca.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+</head>
+
+<body>
+	<div id="svelte">
+
+
+<ion-split-pane content-id="menu-content" when="lg"><ion-menu content-id="menu-content" side="start" type="overlay" style="--side-width:170px"><ion-header><ion-toolbar color="tertiary"><ion-title>Awesome avocado menu</ion-title></ion-toolbar></ion-header>
+      <ion-content>Awesome avocado content </ion-content></ion-menu>
+    <ion-content id="menu-content"><ion-header><ion-toolbar><nav class="bg-indigo-200 py-auto p-4"><a href="/">Home</a>
+            <a href="/blogs">Blogs</a></nav></ion-toolbar></ion-header>
+      <ion-chip color="tertiary" mode="ios" outline="true"><ion-icon name="log-in"></ion-icon></ion-chip>
+<div class="block svelte-7s0s4f"><form><ion-card><ion-item><ion-label position="floating">Username</ion-label>
+        <ion-input type="text"></ion-input></ion-item>
+      <ion-item><ion-label position="floating">Password <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="password"></ion-input></ion-item>
+      <button class="focus:outline-none"><ion-button type="submit" fill="solid" shape="round" color="tertiary">Login
+        </ion-button></button></ion-card></form></div>
+
+</ion-content></ion-split-pane>
+
+
+
+	
+</div>
+</body>
+
+</html>

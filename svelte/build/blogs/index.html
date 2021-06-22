@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<base href="./">
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="/tailwind.css">
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+
+	
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-652104df.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-c0ade6c6.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-82f3ca3f.js">
+		<link rel="modulepreload" href="/./_app/pages/blogs/index.svelte-6695f9c8.js">
+		<link rel="modulepreload" href="/./_app/chunks/Env-28e3fc40.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-652104df.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-82f3ca3f.js"),
+						import("/./_app/pages/blogs/index.svelte-6695f9c8.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/blogs",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+</head>
+
+<body>
+	<div id="svelte">
+
+
+<ion-split-pane content-id="menu-content" when="lg"><ion-menu content-id="menu-content" side="start" type="overlay" style="--side-width:170px"><ion-header><ion-toolbar color="tertiary"><ion-title>Awesome avocado menu</ion-title></ion-toolbar></ion-header>
+      <ion-content>Awesome avocado content </ion-content></ion-menu>
+    <ion-content id="menu-content"><ion-header><ion-toolbar><nav class="bg-indigo-200 py-auto p-4"><a href="/">Home</a>
+            <a href="/blogs">Blogs</a></nav></ion-toolbar></ion-header>
+      <div class="grid lg:grid-cols-3 mx-auto md:grid-cols-2"><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://www.pea.co.th">http://www.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์อินเตอร์เน็ต กฟภ.</ion-card-title></ion-card-header>
+  <ion-card-content>ช่องทางการชำระค่าไฟฟ้า, ประกาศดับไฟ,  ประกาศจัดซื้อจัดจ้าง, ข่าวรับสมัครงาน, PEA e-Service, สอบถามประวัติการใช้ไฟ, การคืนเงินประกันการใช้ไฟ, ติดต่อ กฟภ.</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef90"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://intranet.pea.co.th">http://intranet.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์อินทราเน็ต กฟภ.</ion-card-title></ion-card-header>
+  <ion-card-content>แจ้งข่าวสารภายในองค์กร,  ค้นหาข้อมูลพนักงาน , ลิงค์หน่วยงาน , ดาวน์โหลดเอกสาร, e-App, Extranet, Pea-Mail, App Portal, สารบรรณ, ประชุมไร้กระดาษ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef91"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://intra.pea.co.th/peas3">http://intra.pea.co.th/peas3</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์อินทราเน็ต กฟต.3 ยะลา</ion-card-title></ion-card-header>
+  <ion-card-content>แจ้งข่าวสารภายใน,  แนะนำองค์กร, สังกัด กฟต.3, ข้อมูลพนักงาน ต.3, ข้อมูลสำคัญ ต.3, การไฟฟ้าโปร่งใส, สำนักงานสีเขียว,  ค้นหาข้อมูลพนักงาน , ระบบสารบรรณ, Pealife, ระบบบริหารจัดการทรัพย์สิน, Dashboard peas3, SMR, รวมระบบงานในองค์กร</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef92"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://strms.pea.co.th/start/home_start.php">http://strms.pea.co.th/start/home_start.php</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ ระบบการรายงานและติดตามประเมินผล การไฟฟ้าโปร่งใสอย่างยั่งยืน กฟภ. ปี 2564</ion-card-title></ion-card-header>
+  <ion-card-content>การไฟฟ้าโปร่งใส ,ฝ่ายงานผู้ว่าการ,สำนักดิจิทัล, สำนักงานตรวจสอบภายใน, สายงาน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef93"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://strms.pea.co.th/s3/2564/tprS3-64/home.php">http://strms.pea.co.th/s3/2564/tprS3-64/home.php</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ ระบบการรายงานและติดตามประเมินผล การไฟฟ้าโปร่งใสอย่างยั่งยืน กฟต.3 ปี 2564</ion-card-title></ion-card-header>
+  <ion-card-content>กฟต.3, รวมทุก กฟฟ. สังกัด กฟต.3 , กฟจ.ยะลา, กฟอ.เบตง, กฟจ.ปัตตานี, กฟจ.นราธิวาส, กฟอ.สุไหงโก-ลก, กฟจ.สตูล, กฟจ.พัทลุง, กฟจ.สงขลา, กฟอ.จะนะ, กฟอ.หาดใหญ่, กฟอ.สะเดา, กฟอ.ระโนด และกฟฟ.ในสังกัด</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef94"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://greenoffice.pea.co.th/2564/">http://greenoffice.pea.co.th/2564/</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ สำนักงานสีเขียว กฟต.3 ประจำปี 2564 </ion-card-title></ion-card-header>
+  <ion-card-content>กฟต.3, รวมทุก กฟฟ. สังกัด กฟต.3 , กฟจ.ยะลา, กฟอ.เบตง, กฟจ.ปัตตานี, กฟจ.นราธิวาส, กฟอ.สุไหงโก-ลก, กฟจ.สตูล, กฟจ.พัทลุง, กฟจ.สงขลา, กฟอ.จะนะ, กฟอ.หาดใหญ่, กฟอ.สะเดา, กฟอ.ระโนด และกฟฟ.ในสังกัด</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef95"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://www.peacoop.or.th/">http://www.peacoop.or.th/</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์สหกรณ์ออมทรัพย์ กฟภ.</ion-card-title></ion-card-header>
+  <ion-card-content>เกี่ยวกับสหกรณ์ , ระเบียบข้อบังคับ, สวัสดิการสมาชิก, บริการสหกรณ์, คำถามที่พบบ่อย,ติดต่อสหกรณ์</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef96"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://www.mfcfund.com">https://www.mfcfund.com</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์เปลี่ยนแปลงสัดส่วนการลงทุน MFCfund</ion-card-title></ion-card-header>
+  <ion-card-content>เกี่ยวกับ MFC, รู้ก่อนลงทุน, กองทุนรวม, ลงทุนกับ MFC, รู้ทันภาวการณ์ตลาด ,ติดต่อเรา</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef97"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://bct.pea.co.th/youtube">http://bct.pea.co.th/youtube</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ คลังความรู้ กฟต.3 </ion-card-title></ion-card-header>
+  <ion-card-content>โหลดข้อมูลไฟล์ วีดีโอเข้า Youtube, VDO ระบบบริการลูกค้าอัจฉริยะ, OBS, Pea Smart Plus</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef98"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://dmsxupload.pea.co.th/ETSx/Auth/Login  ">https://dmsxupload.pea.co.th/ETSx/Auth/Login  </a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ระบบติดตามหนี้ค่าไฟฟ้าค้างชำระ ETSx</ion-card-title></ion-card-header>
+  <ion-card-content>ผู้ใช้ไฟฟ้าค้างชำระ, ค้นหาหนี้ค่าไฟฟ้าค้างชำระ, ข้อมูลการฟื้นฟูกิจการ, รายงาน, สรุปยอดการส่ง ผกม. กอก. พิจารณาดำเนินคดี, สรุปยอดการส่ง สชก.(บก.-กม.) พิจารณาอนุมัติดำเนินคดี, คู่มือการใช้งาน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef99"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://okr.pea.co.th">http://okr.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ระบบติดตามผล การดำเนินการตามเป้าหมาย OKR</ion-card-title></ion-card-header>
+  <ion-card-content>Dashboard ลูกหนี้ค่าไฟฟ้า, รายงานสถานะลูกหนี้ค่าไฟฟ้าค้างชำระแยกตามประเภทผู้ใช้ไฟ,  รายงานลูกหนี้แยกตามอายุลูกหนี้, รายงานลูกหนี้ค่าไฟฟ้าเทียบกับเงินประกันการใช้ไฟฟ้า, รายงานลูกหนี้ค่าไฟฟ้าปรับปรุง,สถานะการติดตามงานระบบติดตามหนี้ค่าไฟฟ้าค้างชำระ (ETSx),รายงานผลการเบิกจ่ายงบสำรองกรณีเร่งด่วน ภาค 3,แผนปฏิบัติการ สายงานการไฟฟ้าภาค 3, รายงานตามแผนปฏิบัติ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9a"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://sites.google.com/view/s3-pms/home">https://sites.google.com/view/s3-pms/home</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ Dashboard Peas3</ion-card-title></ion-card-header>
+  <ion-card-content>Dashboard ผลการปฏิบัติงาน (KPI), แผนปฏิบัติประจำปี, เรื่องติดตามและข้อสั่งการ </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9b"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://simp-peadashboard.web.app/#/login">https://simp-peadashboard.web.app/#/login</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ระบบบริหารจัดการพัสดุ</ion-card-title></ion-card-header>
+  <ion-card-content>วางแผนกพัสดุคงคลัง ประเทศไทย, พัสดุคงคลัง ประเทศไทย</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9c"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://smr.pea.co.th   ">https://smr.pea.co.th   </a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ระบบจดหน่วยผู้ใช้ไฟฟ้ารายใหญ่ที่ไม่ใช่มิเตอร์ AMR</ion-card-title></ion-card-header>
+  <ion-card-content>ติดตามผลการอ่านและยืนยันผลการอ่านหน่วย, ส่งข้อมูลระบบบริหารจัดการข้อมูลจดหน่วยบน e-Form, ตรวจสอบ/แก้ไขและยืนยันผลการอ่านหน่วย,ส่งข้อมูลการอ่านหน่วยวางบน FTP SAP เพื่อนำไปประมวลผลบิล</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9d"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://cdp.pea.co.th/">http://cdp.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์ลงทะเบียน/ตรวจสอบ การขอคืนเงินประกันการใช้ไฟฟ้า</ion-card-title></ion-card-header>
+  <ion-card-content>ลงทะเบียนการขอคืนเงินประกันการใช้ไฟฟ้า</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9e"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="Page facebook">Page facebook</a></ion-card-subtitle>
+    <ion-card-title>PEA Governor LIVE</ion-card-title></ion-card-header>
+  <ion-card-content>เพจใช้ในการสื่อสารข้อมูลระหว่างพนักงาน กฟภ. และ ผู้ว่าการ สะดวก รวดเร็ว เข้าถึงพนักงานทุกระดับชั้น </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487ef9f"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.28.1.9/prosecute">http://172.28.1.9/prosecute</a></ion-card-subtitle>
+    <ion-card-title>ระบบบริหารลูกหนี้ดำเนินคดี </ion-card-title></ion-card-header>
+  <ion-card-content>ข้อมูลผู้ใช้ไฟประกอบหนี้ค่ากระแสไฟฟ้าค้างชำระ หลักฐานประกอบหนี้ค่ากระแสไฟฟ้าค้างชำระ ทะเบียนคุมลูกหนี้ดำเนินคดี, กฟฟ.หน้างาน,แผนกบริหารหนี้</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa0"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://jm.pea.co.th">http://jm.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>ระบบ Job Management PEA S3</ion-card-title></ion-card-header>
+  <ion-card-content>ข้อมูล Job ของตนเอง , รายงานการติดตาม</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa1"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://mpf.pea.co.th">http://mpf.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>ระบบ  Manage PDF Files</ion-card-title></ion-card-header>
+  <ion-card-content>แปลงไฟล์ เป็น PDF , แยกและรวมไฟล์ PDF, ดูและแก้ไขไฟล์ PDF, แปลงไฟล์ JPG, TIFF, PNG , ล็อกและปลดล็อค PDF</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa2"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://pealife-leave.pea.co.th/Leave/LoginUI.aspx">https://pealife-leave.pea.co.th/Leave/LoginUI.aspx</a></ion-card-subtitle>
+    <ion-card-title>ระบบวันลาออนไลน์</ion-card-title></ion-card-header>
+  <ion-card-content>การลางานออนไลน์ ของพนักงาน ลาป่วย, ลากิจ, ลาพักผ่อน, ขออนุญาติออกนอกสถานที่</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa3"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://epi.pea.co.th">https://epi.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>ระบบค้นหาข้อมูลพนักงาน</ion-card-title></ion-card-header>
+  <ion-card-content>ค้นหาข้อมูลสังกัดของพนักงาน กฟภ.</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa4"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://eservice.pea.co.th/BackOffice/Account/Login?ReturnUrl=%2fBackOffice">https://eservice.pea.co.th/BackOffice/Account/Login?ReturnUrl=%2fBackOffice</a></ion-card-subtitle>
+    <ion-card-title>ระบบตรวจสอบการชำระเงินออนไลน์ PEA e-Service</ion-card-title></ion-card-header>
+  <ion-card-content>ตรวจสอบการชำระเงินออนไลน์ PEA e-Service</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa5"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://okr.pea.co.th/safetystock/index2.php?area=L">http://okr.pea.co.th/safetystock/index2.php?area=L</a></ion-card-subtitle>
+    <ion-card-title>ระบบแจ้งเตือนพัสดุคงเหลือ</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบแจ้งเตือนพัสดุคงเหลือ คลังพัสดุเขต กฟต.3 (ยะลา)</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa6"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://etax.pea.co.th/#/login">https://etax.pea.co.th/#/login</a></ion-card-subtitle>
+    <ion-card-title>ระบบภาษี และเอกสารธุรกรรมทางอิเล็กทรอนิกส์ </ion-card-title></ion-card-header>
+  <ion-card-content>E-Tax ระบบภาษี และเอกสารธุรกรรมทางอิเล็กทรอนิกส์ </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa7"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://smuser.pea.co.th/">http://smuser.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบสถิติข้อมูล User ID SAP</ion-card-title></ion-card-header>
+  <ion-card-content>แสดงข้อมูลภาพรวมสถิติการใช้งานของแต่ละผู้ใช้แบ่งตามเขตพื้นที่ กฟฟ.</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa8"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://dmsxupload.pea.co.th/asset">https://dmsxupload.pea.co.th/asset</a></ion-card-subtitle>
+    <ion-card-title>ระบบบริหารจัดการทรัพย์สิน</ion-card-title></ion-card-header>
+  <ion-card-content>ตรวจสอบทรัพย์สิน กฟภ.ที่ถือครอง , ประวัติทรัพย์สิน, ซ่อมอุปกรณ์ IT</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efa9"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://plms.pea.co.th/">https://plms.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบการประชุมแบบไร้กระดาษ</ion-card-title></ion-card-header>
+  <ion-card-content>สามารถสร้างการจัดประชุม , ลงชื่อเข้าร่วมประชุม , เอกสารประกอบการประชุม</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efaa"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://dmsx.pea.co.th/">https://dmsx.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบงดจ่ายไฟ</ion-card-title></ion-card-header>
+  <ion-card-content>ระงับการใช้ไฟฟ้า เนื่องจากค้างชำระค่าไฟ และเกินกำหนด</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efab"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.30.7.88/2020/">http://172.30.7.88/2020/</a></ion-card-subtitle>
+    <ion-card-title>ระบบ Peata</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบประเมินสมรรถนะรอบด้าน (PEATA)</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efac"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://idp.pea.co.th/idp2020/">http://idp.pea.co.th/idp2020/</a></ion-card-subtitle>
+    <ion-card-title>ระบบจัดทำแผนพัฒนาบุคลากรรายบุคคล (IDP)</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบจัดทำแผนพัฒนาบุคลากรรายบุคคล (IDP)</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efad"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://smilefeedback.pea.co.th/BPMReport">http://smilefeedback.pea.co.th/BPMReport</a></ion-card-subtitle>
+    <ion-card-title>รายงานสรุปการรับชำระเงิน</ion-card-title></ion-card-header>
+  <ion-card-content>รายงานสรุปการรับชำระเงิน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efae"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://smilefeedback.pea.co.th/QueueReportEvaluate.aspx ">http://smilefeedback.pea.co.th/QueueReportEvaluate.aspx </a></ion-card-subtitle>
+    <ion-card-title>Mail PEA</ion-card-title></ion-card-header>
+  <ion-card-content>พนักงานทุกคนจะมี E-mail องค์กร</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efaf"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://dashboard.pea.co.th/">http://dashboard.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>PEA DASHBOARD HUB</ion-card-title></ion-card-header>
+  <ion-card-content>Dashboard สำนัก, สายงานต่างๆ , สายงานการไฟฟ้า ภาค 1-4 , </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb0"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.28.1.3:8080/zcanr/">http://172.28.1.3:8080/zcanr/</a></ion-card-subtitle>
+    <ion-card-title> ระบบบริหารจัดการลูกหนี้</ion-card-title></ion-card-header>
+  <ion-card-content>บริหารจัดการลูกหนี้ ค่าไฟฟ้า, ลูกหนี้หลังโอนหักเงินประกัน, ลูกหนี้อื่นๆ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb1"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.30.241.42:8080/BOE/BI">http://172.30.241.42:8080/BOE/BI</a></ion-card-subtitle>
+    <ion-card-title>ระบบสารสนเทศสำหรับการ บริหารจัดการองค์กร</ion-card-title></ion-card-header>
+  <ion-card-content>สารสนเทศสำหรับการ บริหารจัดการองค์กร</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb2"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://peas3.pea.co.th/s3/itam/itam.htm">http://peas3.pea.co.th/s3/itam/itam.htm</a></ion-card-subtitle>
+    <ion-card-title>โปรแกรมบริหารข้อมูลอุปกรณ์คอมพิวเตอร์และเครือข่าย</ion-card-title></ion-card-header>
+  <ion-card-content>แจ้งซ่อมอุปกรณ์คอมพิวเตอร์ผ่านระบบ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb3"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://web.pea.co.th/sites/ptc/PTC_Login.aspx">https://web.pea.co.th/sites/ptc/PTC_Login.aspx</a></ion-card-subtitle>
+    <ion-card-title>ระบบบริหารจัดการข้อมูลจดหน่วยบน e-Form (Data Management System for Meter Reading)</ion-card-title></ion-card-header>
+  <ion-card-content>ข้อมูลการจดหน่วย ก่อน-หลัง การตรวจสอบการจดหน่วย รายงาน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb4"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://ucube.pea.co.th/ucube/">http://ucube.pea.co.th/ucube/</a></ion-card-subtitle>
+    <ion-card-title>ระบบสารสนเทศเพื่อการจัดการจากหน่วยการใช้ไฟฟ้า</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบสารสนเทศเพื่อการจัดการจากหน่วยการใช้ไฟฟ้า</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb5"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://gisdatatracking.pea.co.th/login">https://gisdatatracking.pea.co.th/login</a></ion-card-subtitle>
+    <ion-card-title>GIS Data Tracking and Reporting</ion-card-title></ion-card-header>
+  <ion-card-content>รายงานข้อมูล GIS </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb6"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://gisdashboard.pea.co.th/">http://gisdashboard.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>GIS Dashboard</ion-card-title></ion-card-header>
+  <ion-card-content>รายงานความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb7"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://transparency.pea.co.th/tpr">http://transparency.pea.co.th/tpr</a></ion-card-subtitle>
+    <ion-card-title>ทะเบียนควบคุมคู่ค้า/คู่ความร่วมมือ </ion-card-title></ion-card-header>
+  <ion-card-content>ทะเบียนควบคุมคู่ค้า/คู่ความร่วมมือ </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb8"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://www.oic.go.th/INFOCENTER6/677">http://www.oic.go.th/INFOCENTER6/677</a></ion-card-subtitle>
+    <ion-card-title>ศูนย์ข้อมูลข่าวสารอิเล็กทรอนิกส์ของรายการ การไฟฟ้าส่วนภูมิภาค เขต3 (ภาคใต้) จ.ยะลา</ion-card-title></ion-card-header>
+  <ion-card-content>ศูนย์ข้อมูลข่าวสารอิเล็กทรอนิกส์ของรายการ การไฟฟ้าส่วนภูมิภาค เขต3 (ภาคใต้) จ.ยะลา</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efb9"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.30.200.10/pea_network_transparent/people_network_info.php?">http://172.30.200.10/pea_network_transparent/people_network_info.php?</a></ion-card-subtitle>
+    <ion-card-title>ทะเบียนควบคุมเครือข่ายภายใน/ภายนอก</ion-card-title></ion-card-header>
+  <ion-card-content>ทะเบียนควบคุมเครือข่ายภายใน/ภายนอก</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efba"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://transparency.pea.co.th/tfm">http://transparency.pea.co.th/tfm</a></ion-card-subtitle>
+    <ion-card-title>ระบบรายงานผลขยายเขตติดตั้งหม้อแปลงเฉพาะราย </ion-card-title></ion-card-header>
+  <ion-card-content>ระบบรายงานผลขยายเขตติดตั้งหม้อแปลงเฉพาะราย </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efbb"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://transparency.pea.co.th/cw">http://transparency.pea.co.th/cw</a></ion-card-subtitle>
+    <ion-card-title>ระบบควบคุมงานจ้างเหมา </ion-card-title></ion-card-header>
+  <ion-card-content>ระบบควบคุมงานจ้างเหมา </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efbc"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://www.pea.co.th/webApplications/tender_bid/Show/PublicSearchData.aspx">https://www.pea.co.th/webApplications/tender_bid/Show/PublicSearchData.aspx</a></ion-card-subtitle>
+    <ion-card-title>ระบบควบคุมการจัดซื้อจัดจ้าง กฟภ.</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบควบคุมการจัดซื้อจัดจ้าง กฟภ.</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efbd"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://om.pea.co.th/">http://om.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบประกันคุณภาพบริการของ กฟภ. (SQA PEA) </ion-card-title></ion-card-header>
+  <ion-card-content>รายงานผลการดำเนินงานตามมาตราฐานคุณภาพบริการ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efbe"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://peaportal.pea.co.th/portal/apps/opsdashboard/index.html#/b972d68c9c0a4a7e8909d5e8ddfe7afa">https://peaportal.pea.co.th/portal/apps/opsdashboard/index.html#/b972d68c9c0a4a7e8909d5e8ddfe7afa</a></ion-card-subtitle>
+    <ion-card-title>PEA Communication Wire Improvement (CWI) Dashboard Version 3</ion-card-title></ion-card-header>
+  <ion-card-content>PEA Communication Wire Improvement (CWI) Dashboard Version 3 จัดระเบียบการจัดสาย</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efbf"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://gisdashboard.pea.co.th/">http://gisdashboard.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>รายงานความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ</ion-card-title></ion-card-header>
+  <ion-card-content>ความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ ,การนำข้อมูลและสถานะการเบิกจ่าย - 12 เขต</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc0"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://crm.pea.co.th/">https://crm.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบบริหารความสัมพันธ์ลูกค้า Customer Relationship Management</ion-card-title></ion-card-header>
+  <ion-card-content>งานด้านบริหารลูกค้าสัมพันธ์ </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc1"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://rg4.pea.co.th/auc/index.php?action=rg1">http://rg4.pea.co.th/auc/index.php?action=rg1</a></ion-card-subtitle>
+    <ion-card-title>ระบบติดตามงานก่อสร้าง AUC</ion-card-title></ion-card-header>
+  <ion-card-content>ติดตามงานก่อสร้างระบบไฟฟ้า, งานก่อสร้างที่ยังไม่ปิดงานเกิน 180 วัน นับจากวันเบิกพัสุดครั้งแรก</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc2"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://csm.pea.co.th/Refund">http://csm.pea.co.th/Refund</a></ion-card-subtitle>
+    <ion-card-title>ระบบติดตามงานบริการลูกค้า Customer Service Monitering</ion-card-title></ion-card-header>
+  <ion-card-content>ติดตามงานบริการลูกค้า , คืนเงินประกัน, ทะเบียนราษฎร์, ลายเซ็นอิเล็กทรอนิกส์, WOM, สับเปลี่ยนมิเตอร์</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc3"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://datastudio.google.com/reporting/8832964f-3318-44a8-97e0-662a65661e2d/page/gdRMB">https://datastudio.google.com/reporting/8832964f-3318-44a8-97e0-662a65661e2d/page/gdRMB</a></ion-card-subtitle>
+    <ion-card-title>รายงานด้านคุณภาพข้อมูลของระบบ GIS</ion-card-title></ion-card-header>
+  <ion-card-content>รายงานด้านคุณภาพข้อมูลของระบบ GIS , รายงานจำนวนครั้งร้องเรียนด้านไฟตก, ความคลาดเคลื่อนมิเตอร์, ภาระทางไฟฟ้าของหม้อแปลง, ค่าใช้จ่ายงาน Cleansing , แผนที่หม้อแปลง Cleansing</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc4"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://datastudio.google.com/reporting/e0632873-99c5-4987-be35-6df975c0d9be/page/kSYQB">https://datastudio.google.com/reporting/e0632873-99c5-4987-be35-6df975c0d9be/page/kSYQB</a></ion-card-subtitle>
+    <ion-card-title>ติดตามปัญหาการขอรับคืน เงินประกันค่าไฟฟ้า CDP</ion-card-title></ion-card-header>
+  <ion-card-content>ติดตามปัญหาการขอรับคืน เงินประกันค่าไฟฟ้า , ผู้ใช้ไฟลงทะเบียนขอคืนเงินประกัน, ผู้ใช้ไฟที่ได้รับเงินประกันคืนแล้ว, ผู้ใช้ไฟที่ยังไม่ได้รับเงินค่าประกันคืน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc5"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://datastudio.google.com/reporting/ed3c773d-342e-4f5a-aaf1-a420eb86408a/page/3mePB">https://datastudio.google.com/reporting/ed3c773d-342e-4f5a-aaf1-a420eb86408a/page/3mePB</a></ion-card-subtitle>
+    <ion-card-title>ข้อมูลสับเปลี่ยนมิเตอร์อิเล็กทรอนิกส์ กฟอ.สายบุรี ประจำปี 2564</ion-card-title></ion-card-header>
+  <ion-card-content>ข้อมูลสับเปลี่ยนมิเตอร์อิเล็กทรอนิกส์ กฟอ.สายบุรี ประจำปี 2564 , ข้อมูลสับเปลี่ยนมิเตอร์ในระบบ SAP ทั้งโครงการ กฟอ.สายบุรี</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc6"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://docs.google.com/spreadsheets/d/1KPYwqY74bXPWzSbHCHjERGavi0nW5zxxcrUs5rpw1Sk/edit#gid=185724961">https://docs.google.com/spreadsheets/d/1KPYwqY74bXPWzSbHCHjERGavi0nW5zxxcrUs5rpw1Sk/edit#gid=185724961</a></ion-card-subtitle>
+    <ion-card-title>รายงาน ผลการดำเนินการจัดระเบียบสายสื่อสาร</ion-card-title></ion-card-header>
+  <ion-card-content>รายงานผลการจัดระเบียบสาย 474 เส้นทาง, งานจัดซื้อคอนสื่อสารฯ ต.3</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc7"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://docs.google.com/forms/d/e/1FAIpQLSePsQBBUTvpR-xGHYnTZx0XRthapMFmX7aWfRkqM5SRfxrhQA/viewform">https://docs.google.com/forms/d/e/1FAIpQLSePsQBBUTvpR-xGHYnTZx0XRthapMFmX7aWfRkqM5SRfxrhQA/viewform</a></ion-card-subtitle>
+    <ion-card-title>รายงานรูปถ่ายละเมิดการพาดสายสื่อสาร</ion-card-title></ion-card-header>
+  <ion-card-content>ส่งข้อมูลภาพถ่ายเส้นทางละเมิด, ภาพถ่ายเส้นทางละเมิด พื้นที่ ต.3</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc8"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://drive.google.com/drive/folders/1CUZBViRqAxZXwAA9EQcw3QwGvzSHr9y5">https://drive.google.com/drive/folders/1CUZBViRqAxZXwAA9EQcw3QwGvzSHr9y5</a></ion-card-subtitle>
+    <ion-card-title>โปรแกรมลายเซ็นอิเล็กทรอนิกส์</ion-card-title></ion-card-header>
+  <ion-card-content>ชุดติดตั้งโปรแกรม PEASign</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efc9"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://rg4.pea.co.th/wp/">http://rg4.pea.co.th/wp/</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์สายงานการไฟฟ้า ภาค 4 </ion-card-title></ion-card-header>
+  <ion-card-content>ข่าวประชาสัมพันธ์สายงาน, รายงานสถานะผลการดำเนินงานของ สายงานภาค 4 , ฝ่ายอำนวยการภูมิภาค ภาค 4 ฝอภ.(ภ4) , กองวิศวกรรม ภาค 4 กวศ.(ภ4), กองจัดการงาน ภาค 4</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efca"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://kms.pea.co.th/kms/?width_res=1920&amp;height_res=1200">http://kms.pea.co.th/kms/?width_res=1920&amp;height_res=1200</a></ion-card-subtitle>
+    <ion-card-title>ระบบบริหารจัดการความรู้ (Knowledge Management System)</ion-card-title></ion-card-header>
+  <ion-card-content>การจัดการองค์ความรู้ กฟภ. , ฐานข้อมูลสิ่งประดิษฐ์ กฟภ., องค์ความรู้ที่น่าสนใจ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efcb"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://intra.pea.co.th/dpsg/GISP3/">http://intra.pea.co.th/dpsg/GISP3/</a></ion-card-subtitle>
+    <ion-card-title>PEA GIS</ion-card-title></ion-card-header>
+  <ion-card-content>แผนงานพัฒนาสารสนเทศระบบไฟฟ้าทางภูมิศาสตร์ระยะที่ 3</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efcc"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://map.pea.co.th/pea/Default.aspx">https://map.pea.co.th/pea/Default.aspx</a></ion-card-subtitle>
+    <ion-card-title>ระบบภูมิสารสนเทศเพื่อการบริการผู้ใช้ไฟฟ้า</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบภูมิสารสนเทศเพื่อการบริการผู้ใช้ไฟฟ้า PEA MAP</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efcd"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://peaportal.pea.co.th/portal/home/index.html">https://peaportal.pea.co.th/portal/home/index.html</a></ion-card-subtitle>
+    <ion-card-title>PEA GIS Portal </ion-card-title></ion-card-header>
+  <ion-card-content>เว็บไซต์ที่ขยายความสามารถของข้อมูลระบบไฟฟ้า PEAMAP ที่มีอยู่ในปัจจุบัน หรือข้อมูล GIS ที่สร้างขึ้นใหม่ มาประยุกต์ เพื่อทำการสร้างแผนที่ และแชร์แผนที่ผ่านระบบเครือข่าย ซึ่งสามารถนำเสนอข้อมูลในเชิงกราฟฟิกได้อย่างรวดเร็ว อีกทั้งยังมีความสามารถเชื่อมต่อกับ Application บนมือถือ ที่ใช้สำรวจ นำเข้าข้อมูลจากภาคสนาม ทำให้ช่วยลดระยะเวลาการทำงาน ลดขั้นตอนการปฏิบัติงาน และเพิ่มประสิทธิภาพการทำงานมากยิ่งขึ้น </ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efce"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://emailsalaryslip.pea.co.th/">https://emailsalaryslip.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>PEA (Email) E-SLIP</ion-card-title></ion-card-header>
+  <ion-card-content>สลิปเงินเดือนพนักงาน กฟภ.</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efcf"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="www.pealife.pea.co.th">www.pealife.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>PEALife</ion-card-title></ion-card-header>
+  <ion-card-content>เงินได้อิเล็กทรอนิกส์, ประวัติการทำงาน, กองทุนสำรองเลี้ยงชีพ, สถานพยาบาล, ยื่นเบิกสวัสดิการ, ปฏิบัติงานต่างพื้นที่ (สนญ.), ลางานออนไลน์, ปฏิบัติงานต่างพื้นที่ (ส่วนภูมิภาค)</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd0"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://s1intra.pea.co.th/#page-content">http://s1intra.pea.co.th/#page-content</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์อินทราเน็ต กฟต.1 เพชบุรี</ion-card-title></ion-card-header>
+  <ion-card-content>กิจกรรม/ข่าวสาร , งานนโยบาย กฟต.1, KnowledgeBox</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd1"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://ddoc.pea.co.th/login">https://ddoc.pea.co.th/login</a></ion-card-subtitle>
+    <ion-card-title>ระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์</ion-card-title></ion-card-header>
+  <ion-card-content>สารบรรณอิเล็กทรอนิกส์ , เก็บเอกสาร บันทึก, หนังสือเวียนเพื่อทราบ ,หนังสือส่งออก, หนังสือขาเข้า, หนังสือสำคัญ, หนังสือลงทะเบียนรับ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd2"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.30.203.38/DDOC_OKR/main">http://172.30.203.38/DDOC_OKR/main</a></ion-card-subtitle>
+    <ion-card-title>OKR รายงานระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์</ion-card-title></ion-card-header>
+  <ion-card-content>OKR รายงานระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์ , จำนวนข้อมูลเข้า (ต่อเดือน) แยกตามสังกัด กฟต.3</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd3"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://dmsx.pea.co.th/ins/">https://dmsx.pea.co.th/ins/</a></ion-card-subtitle>
+    <ion-card-title>ระบบแจ้งเตือนค่าไฟฟ้า (Insx)</ion-card-title></ion-card-header>
+  <ion-card-content>หนังสือแจ้งเตือนค่าไฟฟ้า ก่อนถึงกำหนดการชำระค่าไฟ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd4"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://extranet.pea.co.th/WebApplications/PeaPassport/Login.aspx">http://extranet.pea.co.th/WebApplications/PeaPassport/Login.aspx</a></ion-card-subtitle>
+    <ion-card-title>PEA Extranet</ion-card-title></ion-card-header>
+  <ion-card-content>ข้อมูลเกี่ยวกับพนักงาน, ข้อมูลส่วนตัวพนักงาน, ข้อมูลการอบรม/สัมมนา, รายงานการขัดแย้ง, การลงนามการกำกับดูแลกิจการที่ดี, การเปลี่ยนแปลงอัตราสะสม กองทุนสำรองเลี้ยงชีพ</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd5"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://scs.pea.co.th/">http://scs.pea.co.th/</a></ion-card-subtitle>
+    <ion-card-title>ระบบงานบริการลูกค้าอัจฉริยะ (Smart Customer service System (SCS) )</ion-card-title></ion-card-header>
+  <ion-card-content>ระบบงานบริการลูกค้าอัจฉริยะ, รับคำร้อง SCS, สับเปลี่ยนมิเตอร์ปริมาณมาก, ตรวจสอบมิเตอร์, ขอรับคืนเงินค่าประกัน, จัดการลายเซ็นอิเล็กทรอนิกส์</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd6"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://isu.pea.co.th/registerid/">http://isu.pea.co.th/registerid/</a></ion-card-subtitle>
+    <ion-card-title>ระบบจัดการข้อมูลเพื่อขอใช้สิทธิเข้าถึงฐานข้อมูลทะเบียนราษฎร์</ion-card-title></ion-card-header>
+  <ion-card-content>เพื่อจัดเก็บข้อมูลพนักงาน/ลูกจ้างของ PEA ที่ได้รับมอบหมายให้ทำหน้าที่ในการให้บริการผู้ใช้ไฟฟ้า ซึ่งต้องเชื่อมโยงข้อมูลระบบทะเบียนราษฎร์ โดยเฉพาะเลขบัตรประชาชน 13 หลัก นำส่งให้สำนักทะเบียนราษฎร์ กรมการปกครอง สำหรับกำหนดสิทธิการเข้าใช้งานฐานข้อมูลทะเบียนราษฎร์ ตามข้อตกลงระหว่าง PEA และ สำนักทะเบียนราษฎร์ กรมการปกครอง</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd7"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://172.27.1.5/wordpress/">http://172.27.1.5/wordpress/</a></ion-card-subtitle>
+    <ion-card-title>เว็บไซต์อินทราเน็ต กฟต.2  นครศรีธรรมราช</ion-card-title></ion-card-header>
+  <ion-card-content>ข่าวประชาสัมพันธ์, กฟฟ.สังกัด ต.2, ข้อมูลสำคัญ, หมายเลขโทรศัพท์ภายในเขต ต.2</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd8"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://intranet.pea.co.th/sites/lcr/en/example">http://intranet.pea.co.th/sites/lcr/en/example</a></ion-card-subtitle>
+    <ion-card-title>กองที่ปรึกากฎหมาย และระเบียบ</ion-card-title></ion-card-header>
+  <ion-card-content>กฎหมายน่ารู้</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efd9"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="https://app.powerbi.com/view?r=eyJrIjoiYzNlNzRlZWUtMDZlYy00MjRhLTkyZjctYTI5NzUwN2Y2MzA4IiwidCI6ImEyMzM5ZjZkLWJmNGEtNDRkYi04OGVjLWNiOGYyN2RhNGFiYiIsImMiOjEwfQ%3D%3D&amp;pagetitle=ReportSection519b52343945c8a14dc0">https://app.powerbi.com/view?r=eyJrIjoiYzNlNzRlZWUtMDZlYy00MjRhLTkyZjctYTI5NzUwN2Y2MzA4IiwidCI6ImEyMzM5ZjZkLWJmNGEtNDRkYi04OGVjLWNiOGYyN2RhNGFiYiIsImMiOjEwfQ%3D%3D&amp;pagetitle=ReportSection519b52343945c8a14dc0</a></ion-card-subtitle>
+    <ion-card-title>สถิติการชำระค่าไฟฟ้าแต่ละช่องทาง</ion-card-title></ion-card-header>
+  <ion-card-content>การชำระค่าไฟผ่านอินเตอร์เน็ต</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efda"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="http://idm.pea.co.th">http://idm.pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>ข้อมูลส่วนบุคคลของพนักงาน IDM</ion-card-title></ion-card-header>
+  <ion-card-content>แก้ไขข้อมูลส่วนตัว, แก้ไขรหัสผ่าน</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/609b4271adf71824e487efdb"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card><ion-card style="display:flex;flex-direction: column;justify-content: space-between;max-height:300px;"><ion-card-header><ion-card-subtitle><a href="worakrit@pea.co.th">worakrit@pea.co.th</a></ion-card-subtitle>
+    <ion-card-title>Worakrit</ion-card-title></ion-card-header>
+  <ion-card-content>How to</ion-card-content>
+
+  <ion-card-footer><ion-chip color="danger" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="heart"></ion-icon></ion-chip>
+    <ion-chip color="primary" mode="ios" outline="true"><ion-label>0</ion-label>
+      <ion-icon name="chatbox"></ion-icon></ion-chip>
+    <a href="blogs/60c5c7d61e60374d00cc2c6e"><ion-chip color="tertiary" mode="ios" outline="true"><ion-label></ion-label>
+        <ion-icon name="cube"></ion-icon></ion-chip></a></ion-card-footer></ion-card></div>
+
+</ion-content></ion-split-pane>
+
+
+
+	<script type="svelte-data" url="http://localhost:5000/blogs">{"status":200,"statusText":"OK","headers":{"access-control-allow-origin":"*","connection":"close","content-length":"38427","content-type":"application/json; charset=utf-8","date":"Tue, 22 Jun 2021 14:41:56 GMT","vary":"Origin"},"body":"[{\"_id\":\"609b4271adf71824e487ef90\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Fwww.pea.co.th\",\"title\":\"เว็บไซต์อินเตอร์เน็ต กฟภ.\",\"content\":\"ช่องทางการชำระค่าไฟฟ้า, ประกาศดับไฟ,  ประกาศจัดซื้อจัดจ้าง, ข่าวรับสมัครงาน, PEA e-Service, สอบถามประวัติการใช้ไฟ, การคืนเงินประกันการใช้ไฟ, ติดต่อ กฟภ.\"},{\"_id\":\"609b4271adf71824e487ef91\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Fintranet.pea.co.th\",\"title\":\"เว็บไซต์อินทราเน็ต กฟภ.\",\"content\":\"แจ้งข่าวสารภายในองค์กร,  ค้นหาข้อมูลพนักงาน , ลิงค์หน่วยงาน , ดาวน์โหลดเอกสาร, e-App, Extranet, Pea-Mail, App Portal, สารบรรณ, ประชุมไร้กระดาษ\"},{\"_id\":\"609b4271adf71824e487ef92\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Fintra.pea.co.th\u002Fpeas3\",\"title\":\"เว็บไซต์อินทราเน็ต กฟต.3 ยะลา\",\"content\":\"แจ้งข่าวสารภายใน,  แนะนำองค์กร, สังกัด กฟต.3, ข้อมูลพนักงาน ต.3, ข้อมูลสำคัญ ต.3, การไฟฟ้าโปร่งใส, สำนักงานสีเขียว,  ค้นหาข้อมูลพนักงาน , ระบบสารบรรณ, Pealife, ระบบบริหารจัดการทรัพย์สิน, Dashboard peas3, SMR, รวมระบบงานในองค์กร\"},{\"_id\":\"609b4271adf71824e487ef93\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fstrms.pea.co.th\u002Fstart\u002Fhome_start.php\",\"title\":\"เว็บไซต์ ระบบการรายงานและติดตามประเมินผล การไฟฟ้าโปร่งใสอย่างยั่งยืน กฟภ. ปี 2564\",\"content\":\"การไฟฟ้าโปร่งใส ,ฝ่ายงานผู้ว่าการ,สำนักดิจิทัล, สำนักงานตรวจสอบภายใน, สายงาน\"},{\"_id\":\"609b4271adf71824e487ef94\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fstrms.pea.co.th\u002Fs3\u002F2564\u002FtprS3-64\u002Fhome.php\",\"title\":\"เว็บไซต์ ระบบการรายงานและติดตามประเมินผล การไฟฟ้าโปร่งใสอย่างยั่งยืน กฟต.3 ปี 2564\",\"content\":\"กฟต.3, รวมทุก กฟฟ. สังกัด กฟต.3 , กฟจ.ยะลา, กฟอ.เบตง, กฟจ.ปัตตานี, กฟจ.นราธิวาส, กฟอ.สุไหงโก-ลก, กฟจ.สตูล, กฟจ.พัทลุง, กฟจ.สงขลา, กฟอ.จะนะ, กฟอ.หาดใหญ่, กฟอ.สะเดา, กฟอ.ระโนด และกฟฟ.ในสังกัด\"},{\"_id\":\"609b4271adf71824e487ef95\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fgreenoffice.pea.co.th\u002F2564\u002F\",\"title\":\"เว็บไซต์ สำนักงานสีเขียว กฟต.3 ประจำปี 2564 \",\"content\":\"กฟต.3, รวมทุก กฟฟ. สังกัด กฟต.3 , กฟจ.ยะลา, กฟอ.เบตง, กฟจ.ปัตตานี, กฟจ.นราธิวาส, กฟอ.สุไหงโก-ลก, กฟจ.สตูล, กฟจ.พัทลุง, กฟจ.สงขลา, กฟอ.จะนะ, กฟอ.หาดใหญ่, กฟอ.สะเดา, กฟอ.ระโนด และกฟฟ.ในสังกัด\"},{\"_id\":\"609b4271adf71824e487ef96\",\"category\":\"เกี่ยวกับพนักงาน\u002Fหน่วยงาน\",\"url\":\"http:\u002F\u002Fwww.peacoop.or.th\u002F\",\"title\":\"เว็บไซต์สหกรณ์ออมทรัพย์ กฟภ.\",\"content\":\"เกี่ยวกับสหกรณ์ , ระเบียบข้อบังคับ, สวัสดิการสมาชิก, บริการสหกรณ์, คำถามที่พบบ่อย,ติดต่อสหกรณ์\"},{\"_id\":\"609b4271adf71824e487ef97\",\"category\":\"เกี่ยวกับพนักงาน\u002Fหน่วยงาน\",\"url\":\"https:\u002F\u002Fwww.mfcfund.com\",\"title\":\"เว็บไซต์เปลี่ยนแปลงสัดส่วนการลงทุน MFCfund\",\"content\":\"เกี่ยวกับ MFC, รู้ก่อนลงทุน, กองทุนรวม, ลงทุนกับ MFC, รู้ทันภาวการณ์ตลาด ,ติดต่อเรา\"},{\"_id\":\"609b4271adf71824e487ef98\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fbct.pea.co.th\u002Fyoutube\",\"title\":\"เว็บไซต์ คลังความรู้ กฟต.3 \",\"content\":\"โหลดข้อมูลไฟล์ วีดีโอเข้า Youtube, VDO ระบบบริการลูกค้าอัจฉริยะ, OBS, Pea Smart Plus\"},{\"_id\":\"609b4271adf71824e487ef99\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fdmsxupload.pea.co.th\u002FETSx\u002FAuth\u002FLogin  \",\"title\":\"เว็บไซต์ระบบติดตามหนี้ค่าไฟฟ้าค้างชำระ ETSx\",\"content\":\"ผู้ใช้ไฟฟ้าค้างชำระ, ค้นหาหนี้ค่าไฟฟ้าค้างชำระ, ข้อมูลการฟื้นฟูกิจการ, รายงาน, สรุปยอดการส่ง ผกม. กอก. พิจารณาดำเนินคดี, สรุปยอดการส่ง สชก.(บก.-กม.) พิจารณาอนุมัติดำเนินคดี, คู่มือการใช้งาน\"},{\"_id\":\"609b4271adf71824e487ef9a\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fokr.pea.co.th\",\"title\":\"เว็บไซต์ระบบติดตามผล การดำเนินการตามเป้าหมาย OKR\",\"content\":\"Dashboard ลูกหนี้ค่าไฟฟ้า, รายงานสถานะลูกหนี้ค่าไฟฟ้าค้างชำระแยกตามประเภทผู้ใช้ไฟ,  รายงานลูกหนี้แยกตามอายุลูกหนี้, รายงานลูกหนี้ค่าไฟฟ้าเทียบกับเงินประกันการใช้ไฟฟ้า, รายงานลูกหนี้ค่าไฟฟ้าปรับปรุง,สถานะการติดตามงานระบบติดตามหนี้ค่าไฟฟ้าค้างชำระ (ETSx),รายงานผลการเบิกจ่ายงบสำรองกรณีเร่งด่วน ภาค 3,แผนปฏิบัติการ สายงานการไฟฟ้าภาค 3, รายงานตามแผนปฏิบัติ\"},{\"_id\":\"609b4271adf71824e487ef9b\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fsites.google.com\u002Fview\u002Fs3-pms\u002Fhome\",\"title\":\"เว็บไซต์ Dashboard Peas3\",\"content\":\"Dashboard ผลการปฏิบัติงาน (KPI), แผนปฏิบัติประจำปี, เรื่องติดตามและข้อสั่งการ \"},{\"_id\":\"609b4271adf71824e487ef9c\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fsimp-peadashboard.web.app\u002F#\u002Flogin\",\"title\":\"เว็บไซต์ระบบบริหารจัดการพัสดุ\",\"content\":\"วางแผนกพัสดุคงคลัง ประเทศไทย, พัสดุคงคลัง ประเทศไทย\"},{\"_id\":\"609b4271adf71824e487ef9d\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fsmr.pea.co.th   \",\"title\":\"เว็บไซต์ระบบจดหน่วยผู้ใช้ไฟฟ้ารายใหญ่ที่ไม่ใช่มิเตอร์ AMR\",\"content\":\"ติดตามผลการอ่านและยืนยันผลการอ่านหน่วย, ส่งข้อมูลระบบบริหารจัดการข้อมูลจดหน่วยบน e-Form, ตรวจสอบ\u002Fแก้ไขและยืนยันผลการอ่านหน่วย,ส่งข้อมูลการอ่านหน่วยวางบน FTP SAP เพื่อนำไปประมวลผลบิล\"},{\"_id\":\"609b4271adf71824e487ef9e\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fcdp.pea.co.th\u002F\",\"title\":\"เว็บไซต์ลงทะเบียน\u002Fตรวจสอบ การขอคืนเงินประกันการใช้ไฟฟ้า\",\"content\":\"ลงทะเบียนการขอคืนเงินประกันการใช้ไฟฟ้า\"},{\"_id\":\"609b4271adf71824e487ef9f\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"Page facebook\",\"title\":\"PEA Governor LIVE\",\"content\":\"เพจใช้ในการสื่อสารข้อมูลระหว่างพนักงาน กฟภ. และ ผู้ว่าการ สะดวก รวดเร็ว เข้าถึงพนักงานทุกระดับชั้น \"},{\"_id\":\"609b4271adf71824e487efa0\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002F172.28.1.9\u002Fprosecute\",\"title\":\"ระบบบริหารลูกหนี้ดำเนินคดี \",\"content\":\"ข้อมูลผู้ใช้ไฟประกอบหนี้ค่ากระแสไฟฟ้าค้างชำระ หลักฐานประกอบหนี้ค่ากระแสไฟฟ้าค้างชำระ ทะเบียนคุมลูกหนี้ดำเนินคดี, กฟฟ.หน้างาน,แผนกบริหารหนี้\"},{\"_id\":\"609b4271adf71824e487efa1\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fjm.pea.co.th\",\"title\":\"ระบบ Job Management PEA S3\",\"content\":\"ข้อมูล Job ของตนเอง , รายงานการติดตาม\"},{\"_id\":\"609b4271adf71824e487efa2\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fmpf.pea.co.th\",\"title\":\"ระบบ  Manage PDF Files\",\"content\":\"แปลงไฟล์ เป็น PDF , แยกและรวมไฟล์ PDF, ดูและแก้ไขไฟล์ PDF, แปลงไฟล์ JPG, TIFF, PNG , ล็อกและปลดล็อค PDF\"},{\"_id\":\"609b4271adf71824e487efa3\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fpealife-leave.pea.co.th\u002FLeave\u002FLoginUI.aspx\",\"title\":\"ระบบวันลาออนไลน์\",\"content\":\"การลางานออนไลน์ ของพนักงาน ลาป่วย, ลากิจ, ลาพักผ่อน, ขออนุญาติออกนอกสถานที่\"},{\"_id\":\"609b4271adf71824e487efa4\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fepi.pea.co.th\",\"title\":\"ระบบค้นหาข้อมูลพนักงาน\",\"content\":\"ค้นหาข้อมูลสังกัดของพนักงาน กฟภ.\"},{\"_id\":\"609b4271adf71824e487efa5\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Feservice.pea.co.th\u002FBackOffice\u002FAccount\u002FLogin?ReturnUrl=%2fBackOffice\",\"title\":\"ระบบตรวจสอบการชำระเงินออนไลน์ PEA e-Service\",\"content\":\"ตรวจสอบการชำระเงินออนไลน์ PEA e-Service\"},{\"_id\":\"609b4271adf71824e487efa6\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fokr.pea.co.th\u002Fsafetystock\u002Findex2.php?area=L\",\"title\":\"ระบบแจ้งเตือนพัสดุคงเหลือ\",\"content\":\"ระบบแจ้งเตือนพัสดุคงเหลือ คลังพัสดุเขต กฟต.3 (ยะลา)\"},{\"_id\":\"609b4271adf71824e487efa7\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fetax.pea.co.th\u002F#\u002Flogin\",\"title\":\"ระบบภาษี และเอกสารธุรกรรมทางอิเล็กทรอนิกส์ \",\"content\":\"E-Tax ระบบภาษี และเอกสารธุรกรรมทางอิเล็กทรอนิกส์ \"},{\"_id\":\"609b4271adf71824e487efa8\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fsmuser.pea.co.th\u002F\",\"title\":\"ระบบสถิติข้อมูล User ID SAP\",\"content\":\"แสดงข้อมูลภาพรวมสถิติการใช้งานของแต่ละผู้ใช้แบ่งตามเขตพื้นที่ กฟฟ.\"},{\"_id\":\"609b4271adf71824e487efa9\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fdmsxupload.pea.co.th\u002Fasset\",\"title\":\"ระบบบริหารจัดการทรัพย์สิน\",\"content\":\"ตรวจสอบทรัพย์สิน กฟภ.ที่ถือครอง , ประวัติทรัพย์สิน, ซ่อมอุปกรณ์ IT\"},{\"_id\":\"609b4271adf71824e487efaa\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fplms.pea.co.th\u002F\",\"title\":\"ระบบการประชุมแบบไร้กระดาษ\",\"content\":\"สามารถสร้างการจัดประชุม , ลงชื่อเข้าร่วมประชุม , เอกสารประกอบการประชุม\"},{\"_id\":\"609b4271adf71824e487efab\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fdmsx.pea.co.th\u002F\",\"title\":\"ระบบงดจ่ายไฟ\",\"content\":\"ระงับการใช้ไฟฟ้า เนื่องจากค้างชำระค่าไฟ และเกินกำหนด\"},{\"_id\":\"609b4271adf71824e487efac\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"http:\u002F\u002F172.30.7.88\u002F2020\u002F\",\"title\":\"ระบบ Peata\",\"content\":\"ระบบประเมินสมรรถนะรอบด้าน (PEATA)\"},{\"_id\":\"609b4271adf71824e487efad\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"http:\u002F\u002Fidp.pea.co.th\u002Fidp2020\u002F\",\"title\":\"ระบบจัดทำแผนพัฒนาบุคลากรรายบุคคล (IDP)\",\"content\":\"ระบบจัดทำแผนพัฒนาบุคลากรรายบุคคล (IDP)\"},{\"_id\":\"609b4271adf71824e487efae\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fsmilefeedback.pea.co.th\u002FBPMReport\",\"title\":\"รายงานสรุปการรับชำระเงิน\",\"content\":\"รายงานสรุปการรับชำระเงิน\"},{\"_id\":\"609b4271adf71824e487efaf\",\"category\":\"เกี่ยวกับพนักงาน\u002Fอรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fsmilefeedback.pea.co.th\u002FQueueReportEvaluate.aspx \",\"title\":\"Mail PEA\",\"content\":\"พนักงานทุกคนจะมี E-mail องค์กร\"},{\"_id\":\"609b4271adf71824e487efb0\",\"category\":\"Dashboard\",\"url\":\"http:\u002F\u002Fdashboard.pea.co.th\u002F\",\"title\":\"PEA DASHBOARD HUB\",\"content\":\"Dashboard สำนัก, สายงานต่างๆ , สายงานการไฟฟ้า ภาค 1-4 , \"},{\"_id\":\"609b4271adf71824e487efb1\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002F172.28.1.3:8080\u002Fzcanr\u002F\",\"title\":\" ระบบบริหารจัดการลูกหนี้\",\"content\":\"บริหารจัดการลูกหนี้ ค่าไฟฟ้า, ลูกหนี้หลังโอนหักเงินประกัน, ลูกหนี้อื่นๆ\",\"slug\":\"\",\"updatedAt\":\"2021-06-07T12:44:02.055Z\",\"updated_by\":\"60bc8f4c520588150470af5c\"},{\"_id\":\"609b4271adf71824e487efb2\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002F172.30.241.42:8080\u002FBOE\u002FBI\",\"title\":\"ระบบสารสนเทศสำหรับการ บริหารจัดการองค์กร\",\"content\":\"สารสนเทศสำหรับการ บริหารจัดการองค์กร\"},{\"_id\":\"609b4271adf71824e487efb3\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fpeas3.pea.co.th\u002Fs3\u002Fitam\u002Fitam.htm\",\"title\":\"โปรแกรมบริหารข้อมูลอุปกรณ์คอมพิวเตอร์และเครือข่าย\",\"content\":\"แจ้งซ่อมอุปกรณ์คอมพิวเตอร์ผ่านระบบ\"},{\"_id\":\"609b4271adf71824e487efb4\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fweb.pea.co.th\u002Fsites\u002Fptc\u002FPTC_Login.aspx\",\"title\":\"ระบบบริหารจัดการข้อมูลจดหน่วยบน e-Form (Data Management System for Meter Reading)\",\"content\":\"ข้อมูลการจดหน่วย ก่อน-หลัง การตรวจสอบการจดหน่วย รายงาน\"},{\"_id\":\"609b4271adf71824e487efb5\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fucube.pea.co.th\u002Fucube\u002F\",\"title\":\"ระบบสารสนเทศเพื่อการจัดการจากหน่วยการใช้ไฟฟ้า\",\"content\":\"ระบบสารสนเทศเพื่อการจัดการจากหน่วยการใช้ไฟฟ้า\"},{\"_id\":\"609b4271adf71824e487efb6\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fgisdatatracking.pea.co.th\u002Flogin\",\"title\":\"GIS Data Tracking and Reporting\",\"content\":\"รายงานข้อมูล GIS \"},{\"_id\":\"609b4271adf71824e487efb7\",\"category\":\"Dashboard\",\"url\":\"http:\u002F\u002Fgisdashboard.pea.co.th\u002F\",\"title\":\"GIS Dashboard\",\"content\":\"รายงานความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ\"},{\"_id\":\"609b4271adf71824e487efb8\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Ftransparency.pea.co.th\u002Ftpr\",\"title\":\"ทะเบียนควบคุมคู่ค้า\u002Fคู่ความร่วมมือ \",\"content\":\"ทะเบียนควบคุมคู่ค้า\u002Fคู่ความร่วมมือ \"},{\"_id\":\"609b4271adf71824e487efb9\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fหน่วยงาน\",\"url\":\"http:\u002F\u002Fwww.oic.go.th\u002FINFOCENTER6\u002F677\",\"title\":\"ศูนย์ข้อมูลข่าวสารอิเล็กทรอนิกส์ของรายการ การไฟฟ้าส่วนภูมิภาค เขต3 (ภาคใต้) จ.ยะลา\",\"content\":\"ศูนย์ข้อมูลข่าวสารอิเล็กทรอนิกส์ของรายการ การไฟฟ้าส่วนภูมิภาค เขต3 (ภาคใต้) จ.ยะลา\"},{\"_id\":\"609b4271adf71824e487efba\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002F172.30.200.10\u002Fpea_network_transparent\u002Fpeople_network_info.php?\",\"title\":\"ทะเบียนควบคุมเครือข่ายภายใน\u002Fภายนอก\",\"content\":\"ทะเบียนควบคุมเครือข่ายภายใน\u002Fภายนอก\"},{\"_id\":\"609b4271adf71824e487efbb\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Ftransparency.pea.co.th\u002Ftfm\",\"title\":\"ระบบรายงานผลขยายเขตติดตั้งหม้อแปลงเฉพาะราย \",\"content\":\"ระบบรายงานผลขยายเขตติดตั้งหม้อแปลงเฉพาะราย \"},{\"_id\":\"609b4271adf71824e487efbc\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Ftransparency.pea.co.th\u002Fcw\",\"title\":\"ระบบควบคุมงานจ้างเหมา \",\"content\":\"ระบบควบคุมงานจ้างเหมา \"},{\"_id\":\"609b4271adf71824e487efbd\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fwww.pea.co.th\u002FwebApplications\u002Ftender_bid\u002FShow\u002FPublicSearchData.aspx\",\"title\":\"ระบบควบคุมการจัดซื้อจัดจ้าง กฟภ.\",\"content\":\"ระบบควบคุมการจัดซื้อจัดจ้าง กฟภ.\"},{\"_id\":\"609b4271adf71824e487efbe\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fom.pea.co.th\u002F\",\"title\":\"ระบบประกันคุณภาพบริการของ กฟภ. (SQA PEA) \",\"content\":\"รายงานผลการดำเนินงานตามมาตราฐานคุณภาพบริการ\"},{\"_id\":\"609b4271adf71824e487efbf\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fpeaportal.pea.co.th\u002Fportal\u002Fapps\u002Fopsdashboard\u002Findex.html#\u002Fb972d68c9c0a4a7e8909d5e8ddfe7afa\",\"title\":\"PEA Communication Wire Improvement (CWI) Dashboard Version 3\",\"content\":\"PEA Communication Wire Improvement (CWI) Dashboard Version 3 จัดระเบียบการจัดสาย\"},{\"_id\":\"609b4271adf71824e487efc0\",\"category\":\"Dashboard\",\"url\":\"http:\u002F\u002Fgisdashboard.pea.co.th\u002F\",\"title\":\"รายงานความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ\",\"content\":\"ความก้าวหน้าผลการดำเนินการ Data Cleansing Phase Meter ระบบจำหน่ายแรงต่ำ ,การนำข้อมูลและสถานะการเบิกจ่าย - 12 เขต\"},{\"_id\":\"609b4271adf71824e487efc1\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fcrm.pea.co.th\u002F\",\"title\":\"ระบบบริหารความสัมพันธ์ลูกค้า Customer Relationship Management\",\"content\":\"งานด้านบริหารลูกค้าสัมพันธ์ \"},{\"_id\":\"609b4271adf71824e487efc2\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Frg4.pea.co.th\u002Fauc\u002Findex.php?action=rg1\",\"title\":\"ระบบติดตามงานก่อสร้าง AUC\",\"content\":\"ติดตามงานก่อสร้างระบบไฟฟ้า, งานก่อสร้างที่ยังไม่ปิดงานเกิน 180 วัน นับจากวันเบิกพัสุดครั้งแรก\"},{\"_id\":\"609b4271adf71824e487efc3\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fcsm.pea.co.th\u002FRefund\",\"title\":\"ระบบติดตามงานบริการลูกค้า Customer Service Monitering\",\"content\":\"ติดตามงานบริการลูกค้า , คืนเงินประกัน, ทะเบียนราษฎร์, ลายเซ็นอิเล็กทรอนิกส์, WOM, สับเปลี่ยนมิเตอร์\"},{\"_id\":\"609b4271adf71824e487efc4\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fdatastudio.google.com\u002Freporting\u002F8832964f-3318-44a8-97e0-662a65661e2d\u002Fpage\u002FgdRMB\",\"title\":\"รายงานด้านคุณภาพข้อมูลของระบบ GIS\",\"content\":\"รายงานด้านคุณภาพข้อมูลของระบบ GIS , รายงานจำนวนครั้งร้องเรียนด้านไฟตก, ความคลาดเคลื่อนมิเตอร์, ภาระทางไฟฟ้าของหม้อแปลง, ค่าใช้จ่ายงาน Cleansing , แผนที่หม้อแปลง Cleansing\"},{\"_id\":\"609b4271adf71824e487efc5\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fdatastudio.google.com\u002Freporting\u002Fe0632873-99c5-4987-be35-6df975c0d9be\u002Fpage\u002FkSYQB\",\"title\":\"ติดตามปัญหาการขอรับคืน เงินประกันค่าไฟฟ้า CDP\",\"content\":\"ติดตามปัญหาการขอรับคืน เงินประกันค่าไฟฟ้า , ผู้ใช้ไฟลงทะเบียนขอคืนเงินประกัน, ผู้ใช้ไฟที่ได้รับเงินประกันคืนแล้ว, ผู้ใช้ไฟที่ยังไม่ได้รับเงินค่าประกันคืน\"},{\"_id\":\"609b4271adf71824e487efc6\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fdatastudio.google.com\u002Freporting\u002Fed3c773d-342e-4f5a-aaf1-a420eb86408a\u002Fpage\u002F3mePB\",\"title\":\"ข้อมูลสับเปลี่ยนมิเตอร์อิเล็กทรอนิกส์ กฟอ.สายบุรี ประจำปี 2564\",\"content\":\"ข้อมูลสับเปลี่ยนมิเตอร์อิเล็กทรอนิกส์ กฟอ.สายบุรี ประจำปี 2564 , ข้อมูลสับเปลี่ยนมิเตอร์ในระบบ SAP ทั้งโครงการ กฟอ.สายบุรี\"},{\"_id\":\"609b4271adf71824e487efc7\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fdocs.google.com\u002Fspreadsheets\u002Fd\u002F1KPYwqY74bXPWzSbHCHjERGavi0nW5zxxcrUs5rpw1Sk\u002Fedit#gid=185724961\",\"title\":\"รายงาน ผลการดำเนินการจัดระเบียบสายสื่อสาร\",\"content\":\"รายงานผลการจัดระเบียบสาย 474 เส้นทาง, งานจัดซื้อคอนสื่อสารฯ ต.3\"},{\"_id\":\"609b4271adf71824e487efc8\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fdocs.google.com\u002Fforms\u002Fd\u002Fe\u002F1FAIpQLSePsQBBUTvpR-xGHYnTZx0XRthapMFmX7aWfRkqM5SRfxrhQA\u002Fviewform\",\"title\":\"รายงานรูปถ่ายละเมิดการพาดสายสื่อสาร\",\"content\":\"ส่งข้อมูลภาพถ่ายเส้นทางละเมิด, ภาพถ่ายเส้นทางละเมิด พื้นที่ ต.3\"},{\"_id\":\"609b4271adf71824e487efc9\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fdrive.google.com\u002Fdrive\u002Ffolders\u002F1CUZBViRqAxZXwAA9EQcw3QwGvzSHr9y5\",\"title\":\"โปรแกรมลายเซ็นอิเล็กทรอนิกส์\",\"content\":\"ชุดติดตั้งโปรแกรม PEASign\"},{\"_id\":\"609b4271adf71824e487efca\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Frg4.pea.co.th\u002Fwp\u002F\",\"title\":\"เว็บไซต์สายงานการไฟฟ้า ภาค 4 \",\"content\":\"ข่าวประชาสัมพันธ์สายงาน, รายงานสถานะผลการดำเนินงานของ สายงานภาค 4 , ฝ่ายอำนวยการภูมิภาค ภาค 4 ฝอภ.(ภ4) , กองวิศวกรรม ภาค 4 กวศ.(ภ4), กองจัดการงาน ภาค 4\"},{\"_id\":\"609b4271adf71824e487efcb\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fkms.pea.co.th\u002Fkms\u002F?width_res=1920&height_res=1200\",\"title\":\"ระบบบริหารจัดการความรู้ (Knowledge Management System)\",\"content\":\"การจัดการองค์ความรู้ กฟภ. , ฐานข้อมูลสิ่งประดิษฐ์ กฟภ., องค์ความรู้ที่น่าสนใจ\"},{\"_id\":\"609b4271adf71824e487efcc\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"http:\u002F\u002Fintra.pea.co.th\u002Fdpsg\u002FGISP3\u002F\",\"title\":\"PEA GIS\",\"content\":\"แผนงานพัฒนาสารสนเทศระบบไฟฟ้าทางภูมิศาสตร์ระยะที่ 3\"},{\"_id\":\"609b4271adf71824e487efcd\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fmap.pea.co.th\u002Fpea\u002FDefault.aspx\",\"title\":\"ระบบภูมิสารสนเทศเพื่อการบริการผู้ใช้ไฟฟ้า\",\"content\":\"ระบบภูมิสารสนเทศเพื่อการบริการผู้ใช้ไฟฟ้า PEA MAP\"},{\"_id\":\"609b4271adf71824e487efce\",\"category\":\"อรรถประโยชน์ อื่นๆ \",\"url\":\"https:\u002F\u002Fpeaportal.pea.co.th\u002Fportal\u002Fhome\u002Findex.html\",\"title\":\"PEA GIS Portal \",\"content\":\"เว็บไซต์ที่ขยายความสามารถของข้อมูลระบบไฟฟ้า PEAMAP ที่มีอยู่ในปัจจุบัน หรือข้อมูล GIS ที่สร้างขึ้นใหม่ มาประยุกต์ เพื่อทำการสร้างแผนที่ และแชร์แผนที่ผ่านระบบเครือข่าย ซึ่งสามารถนำเสนอข้อมูลในเชิงกราฟฟิกได้อย่างรวดเร็ว อีกทั้งยังมีความสามารถเชื่อมต่อกับ Application บนมือถือ ที่ใช้สำรวจ นำเข้าข้อมูลจากภาคสนาม ทำให้ช่วยลดระยะเวลาการทำงาน ลดขั้นตอนการปฏิบัติงาน และเพิ่มประสิทธิภาพการทำงานมากยิ่งขึ้น \"},{\"_id\":\"609b4271adf71824e487efcf\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"https:\u002F\u002Femailsalaryslip.pea.co.th\u002F\",\"title\":\"PEA (Email) E-SLIP\",\"content\":\"สลิปเงินเดือนพนักงาน กฟภ.\"},{\"_id\":\"609b4271adf71824e487efd0\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"www.pealife.pea.co.th\",\"title\":\"PEALife\",\"content\":\"เงินได้อิเล็กทรอนิกส์, ประวัติการทำงาน, กองทุนสำรองเลี้ยงชีพ, สถานพยาบาล, ยื่นเบิกสวัสดิการ, ปฏิบัติงานต่างพื้นที่ (สนญ.), ลางานออนไลน์, ปฏิบัติงานต่างพื้นที่ (ส่วนภูมิภาค)\"},{\"_id\":\"609b4271adf71824e487efd1\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Fs1intra.pea.co.th\u002F#page-content\",\"title\":\"เว็บไซต์อินทราเน็ต กฟต.1 เพชบุรี\",\"content\":\"กิจกรรม\u002Fข่าวสาร , งานนโยบาย กฟต.1, KnowledgeBox\"},{\"_id\":\"609b4271adf71824e487efd2\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fddoc.pea.co.th\u002Flogin\",\"title\":\"ระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์\",\"content\":\"สารบรรณอิเล็กทรอนิกส์ , เก็บเอกสาร บันทึก, หนังสือเวียนเพื่อทราบ ,หนังสือส่งออก, หนังสือขาเข้า, หนังสือสำคัญ, หนังสือลงทะเบียนรับ\"},{\"_id\":\"609b4271adf71824e487efd3\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"http:\u002F\u002F172.30.203.38\u002FDDOC_OKR\u002Fmain\",\"title\":\"OKR รายงานระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์\",\"content\":\"OKR รายงานระบบสารบรรณอิเล็กทรอนิกส์ แบบรวมศูนย์ , จำนวนข้อมูลเข้า (ต่อเดือน) แยกตามสังกัด กฟต.3\"},{\"_id\":\"609b4271adf71824e487efd4\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"https:\u002F\u002Fdmsx.pea.co.th\u002Fins\u002F\",\"title\":\"ระบบแจ้งเตือนค่าไฟฟ้า (Insx)\",\"content\":\"หนังสือแจ้งเตือนค่าไฟฟ้า ก่อนถึงกำหนดการชำระค่าไฟ\"},{\"_id\":\"609b4271adf71824e487efd5\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"http:\u002F\u002Fextranet.pea.co.th\u002FWebApplications\u002FPeaPassport\u002FLogin.aspx\",\"title\":\"PEA Extranet\",\"content\":\"ข้อมูลเกี่ยวกับพนักงาน, ข้อมูลส่วนตัวพนักงาน, ข้อมูลการอบรม\u002Fสัมมนา, รายงานการขัดแย้ง, การลงนามการกำกับดูแลกิจการที่ดี, การเปลี่ยนแปลงอัตราสะสม กองทุนสำรองเลี้ยงชีพ\"},{\"_id\":\"609b4271adf71824e487efd6\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fscs.pea.co.th\u002F\",\"title\":\"ระบบงานบริการลูกค้าอัจฉริยะ (Smart Customer service System (SCS) )\",\"content\":\"ระบบงานบริการลูกค้าอัจฉริยะ, รับคำร้อง SCS, สับเปลี่ยนมิเตอร์ปริมาณมาก, ตรวจสอบมิเตอร์, ขอรับคืนเงินค่าประกัน, จัดการลายเซ็นอิเล็กทรอนิกส์\"},{\"_id\":\"609b4271adf71824e487efd7\",\"category\":\"เว็บ\u002Fแอพ ระบบงาน\",\"url\":\"http:\u002F\u002Fisu.pea.co.th\u002Fregisterid\u002F\",\"title\":\"ระบบจัดการข้อมูลเพื่อขอใช้สิทธิเข้าถึงฐานข้อมูลทะเบียนราษฎร์\",\"content\":\"เพื่อจัดเก็บข้อมูลพนักงาน\u002Fลูกจ้างของ PEA ที่ได้รับมอบหมายให้ทำหน้าที่ในการให้บริการผู้ใช้ไฟฟ้า ซึ่งต้องเชื่อมโยงข้อมูลระบบทะเบียนราษฎร์ โดยเฉพาะเลขบัตรประชาชน 13 หลัก นำส่งให้สำนักทะเบียนราษฎร์ กรมการปกครอง สำหรับกำหนดสิทธิการเข้าใช้งานฐานข้อมูลทะเบียนราษฎร์ ตามข้อตกลงระหว่าง PEA และ สำนักทะเบียนราษฎร์ กรมการปกครอง\"},{\"_id\":\"609b4271adf71824e487efd8\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002F172.27.1.5\u002Fwordpress\u002F\",\"title\":\"เว็บไซต์อินทราเน็ต กฟต.2  นครศรีธรรมราช\",\"content\":\"ข่าวประชาสัมพันธ์, กฟฟ.สังกัด ต.2, ข้อมูลสำคัญ, หมายเลขโทรศัพท์ภายในเขต ต.2\"},{\"_id\":\"609b4271adf71824e487efd9\",\"category\":\"หน่วยงาน\",\"url\":\"http:\u002F\u002Fintranet.pea.co.th\u002Fsites\u002Flcr\u002Fen\u002Fexample\",\"title\":\"กองที่ปรึกากฎหมาย และระเบียบ\",\"content\":\"กฎหมายน่ารู้\"},{\"_id\":\"609b4271adf71824e487efda\",\"category\":\"Dashboard\",\"url\":\"https:\u002F\u002Fapp.powerbi.com\u002Fview?r=eyJrIjoiYzNlNzRlZWUtMDZlYy00MjRhLTkyZjctYTI5NzUwN2Y2MzA4IiwidCI6ImEyMzM5ZjZkLWJmNGEtNDRkYi04OGVjLWNiOGYyN2RhNGFiYiIsImMiOjEwfQ%3D%3D&pagetitle=ReportSection519b52343945c8a14dc0\",\"title\":\"สถิติการชำระค่าไฟฟ้าแต่ละช่องทาง\",\"content\":\"การชำระค่าไฟผ่านอินเตอร์เน็ต\"},{\"_id\":\"609b4271adf71824e487efdb\",\"category\":\"อรรถประโยชน์ อื่นๆ \u002Fเกี่ยวกับพนักงาน\",\"url\":\"http:\u002F\u002Fidm.pea.co.th\",\"title\":\"ข้อมูลส่วนบุคคลของพนักงาน IDM\",\"content\":\"แก้ไขข้อมูลส่วนตัว, แก้ไขรหัสผ่าน\"},{\"_id\":\"60c5c7d61e60374d00cc2c6e\",\"title\":\"Worakrit\",\"url\":\"worakrit@pea.co.th\",\"content\":\"How to\"}]"}</script>
+</div>
+</body>
+
+</html>
